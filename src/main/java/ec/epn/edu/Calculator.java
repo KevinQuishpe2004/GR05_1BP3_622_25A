@@ -26,11 +26,11 @@ public class Calculator {
         return Math.log(number);
     }
 
-    public static void squareRoot(int i) {
+    public static double squareRoot(int i) {
         if (i < 0) {
             throw new IllegalArgumentException("Square root is not defined for negative numbers.");
         }
-        System.out.println(Math.sqrt(i));
+        return Math.sqrt(i);
     }
 
     public static int factorial(int i) {

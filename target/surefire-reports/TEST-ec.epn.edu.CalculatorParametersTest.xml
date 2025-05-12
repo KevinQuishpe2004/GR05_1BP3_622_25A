@@ -1,59 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.epn.edu.CalculatorParametersTest" time="0.202" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.epn.edu.CalculatorParametersTest" time="0.19" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\EPN\2025-A\Agile\sample-calculator-git\target\test-classes;C:\EPN\2025-A\Agile\sample-calculator-git\target\classes;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\qkevi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\qkevi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\qkevi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\qkevi\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\qkevi\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\qkevi\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\qkevi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\qkevi\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\qkevi\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\ASUS GAMING\Documents\Proyecto de agiles\GR05_1BP3_622_25A\target\test-classes;C:\Users\ASUS GAMING\Documents\Proyecto de agiles\GR05_1BP3_622_25A\target\classes;C:\Users\ASUS GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\ASUS GAMING\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ASUS GAMING\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\ASUS GAMING\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Guayaquil"/>
-    <property name="user.country.format" value="EC"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="24"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\qkevi\AppData\Local\Temp\surefire13523793176375688782\surefirebooter-20250511194159325_3.jar C:\Users\qkevi\AppData\Local\Temp\surefire13523793176375688782 2025-05-11T19-41-59_172-jvmRun1 surefire-20250511194159325_1tmp surefire_0-20250511194159325_2tmp"/>
+    <property name="user.country" value="EC"/>
+    <property name="sun.boot.library.path" value="C:\Users\ASUS GAMING\.jdks\openjdk-24.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS GAMING\AppData\Local\Temp\surefire2077287772149076473\surefirebooter-20250511203021255_3.jar C:\Users\ASUS GAMING\AppData\Local\Temp\surefire2077287772149076473 2025-05-11T20-30-20_985-jvmRun1 surefire-20250511203021255_1tmp surefire_0-20250511203021255_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\EPN\2025-A\Agile\sample-calculator-git\target\test-classes;C:\EPN\2025-A\Agile\sample-calculator-git\target\classes;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\qkevi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\qkevi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\qkevi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\qkevi\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\qkevi\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\qkevi\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\qkevi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\qkevi\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\qkevi\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\ASUS GAMING\Documents\Proyecto de agiles\GR05_1BP3_622_25A\target\test-classes;C:\Users\ASUS GAMING\Documents\Proyecto de agiles\GR05_1BP3_622_25A\target\classes;C:\Users\ASUS GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\ASUS GAMING\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ASUS GAMING\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\ASUS GAMING\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ASUS GAMING\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ASUS GAMING\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\qkevi"/>
-    <property name="user.language" value="en"/>
+    <property name="user.home" value="C:\Users\ASUS GAMING"/>
+    <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-04-15"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="java.home" value="C:\Users\ASUS GAMING\.jdks\openjdk-24.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\EPN\2025-A\Agile\sample-calculator-git"/>
+    <property name="basedir" value="C:\Users\ASUS GAMING\Documents\Proyecto de agiles\GR05_1BP3_622_25A"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\qkevi\AppData\Local\Temp\surefire13523793176375688782\surefirebooter-20250511194159325_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS GAMING\AppData\Local\Temp\surefire2077287772149076473\surefirebooter-20250511203021255_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
-    <property name="user.name" value="qkevi"/>
+    <property name="user.name" value="ASUS GAMING"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\qkevi\.m2\repository"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ASUS GAMING\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\qkevi\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2023.3.2"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUSGA~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.8"/>
     <property name="java.version" value="24.0.1"/>
-    <property name="user.dir" value="C:\EPN\2025-A\Agile\sample-calculator-git"/>
+    <property name="user.dir" value="C:\Users\ASUS GAMING\Documents\Proyecto de agiles\GR05_1BP3_622_25A"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.language.format" value="es"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\SysWOW64\1033;C:\WINDOWS\SysWOW64\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\qkevi\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\qkevi\AppData\Local\Programs\Python\Python310\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2023a\bin;;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\qkevi\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\qkevi\AppData\Local\Programs\Python\Python310\;C:\Users\qkevi\AppData\Local\Microsoft\WindowsApps;C:\Users\qkevi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\qkevi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;;C:\Program Files\JetBrains\PyCharm 2024.3.1\bin;;C:\Users\qkevi\.dotnet\tools;C:\Users\qkevi\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Users\ASUS GAMING\.jdks\openjdk-24.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\SysWOW64\;C:\WINDOWS\SysWOW64\1033;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;D:\apache-maven-3.9.9\bin;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Carolina\AppData\Roaming\nvm;C:\nvm4w\nodejs;D:\xampp\php;D:\composer;D:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\Users\ASUS GAMING\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ASUS GAMING\AppData\Local\Programs\Python\Python312\;C:\Users\ASUS GAMING\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS GAMING\.dotnet\tools;C:\Users\ASUS GAMING\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS GAMING\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -61,16 +59,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="give_parameters_when_addition_then_returnSum(int, int, int)[1]" classname="ec.epn.edu.CalculatorParametersTest" time="0.092"/>
-  <testcase name="give_parameters_when_addition_then_returnSum(int, int, int)[2]" classname="ec.epn.edu.CalculatorParametersTest" time="0.002"/>
+  <testcase name="give_parameters_when_addition_then_returnSum(int, int, int)[1]" classname="ec.epn.edu.CalculatorParametersTest" time="0.08"/>
+  <testcase name="give_parameters_when_addition_then_returnSum(int, int, int)[2]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
   <testcase name="give_parameters_when_addition_then_returnSum(int, int, int)[3]" classname="ec.epn.edu.CalculatorParametersTest" time="0.002"/>
   <testcase name="give_parameters_when_addition_then_returnSum(int, int, int)[4]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
   <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[1]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
-  <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[2]" classname="ec.epn.edu.CalculatorParametersTest" time="0.0"/>
-  <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[3]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
-  <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[4]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
+  <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[2]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
+  <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[3]" classname="ec.epn.edu.CalculatorParametersTest" time="0.002"/>
+  <testcase name="give_parameters_when_multiplication_then_returnProduct(int, int, int)[4]" classname="ec.epn.edu.CalculatorParametersTest" time="0.002"/>
   <testcase name="give_parameters_when_subtraction_then_returnDifference(int, int, int)[1]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
   <testcase name="give_parameters_when_subtraction_then_returnDifference(int, int, int)[2]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
-  <testcase name="give_parameters_when_subtraction_then_returnDifference(int, int, int)[3]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
+  <testcase name="give_parameters_when_subtraction_then_returnDifference(int, int, int)[3]" classname="ec.epn.edu.CalculatorParametersTest" time="0"/>
   <testcase name="give_parameters_when_subtraction_then_returnDifference(int, int, int)[4]" classname="ec.epn.edu.CalculatorParametersTest" time="0.001"/>
 </testsuite>
