@@ -43,4 +43,8 @@ public class Calculator {
         return i * factorial(i - 1);
 
     }
+
+    public static int summation(int limite) {
+        return ((limite) * (limite+1)) / 2;
+    }
 }
