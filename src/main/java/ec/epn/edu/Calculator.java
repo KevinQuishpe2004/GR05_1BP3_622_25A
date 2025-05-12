@@ -44,6 +44,10 @@ public class Calculator {
 
     }
 
+    public static double power(double base, double exponent) {
+        return Math.pow(base, exponent);
+    }
+
     public static int summation(int limite) {
         return ((limite) * (limite+1)) / 2;
     }

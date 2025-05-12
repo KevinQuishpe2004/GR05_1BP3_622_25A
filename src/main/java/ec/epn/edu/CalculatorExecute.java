@@ -12,6 +12,7 @@ public class CalculatorExecute {
         System.out.println("la raiz cuadrada de 100 es " + Calculator.squareRoot(100) );
         System.out.println("el logaritmo natural de 100 es " + Calculator.naturalLog(100) );
         System.out.println("el factorial de 5 es " + Calculator.factorial(5) );
+        System.out.println("la potencia de 2^3 es " + Calculator.power(2,3) );
 
     }
 }
