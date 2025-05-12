@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.epn.edu.CalculatorTest" time="0.024" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.epn.edu.CalculatorTest" time="0.028" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\qkevi\AppData\Local\Temp\surefire296982918903823708\surefirebooter-20250511193334485_3.jar C:\Users\qkevi\AppData\Local\Temp\surefire296982918903823708 2025-05-11T19-33-34_319-jvmRun1 surefire-20250511193334485_1tmp surefire_0-20250511193334485_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\qkevi\AppData\Local\Temp\surefire13523793176375688782\surefirebooter-20250511194159325_3.jar C:\Users\qkevi\AppData\Local\Temp\surefire13523793176375688782 2025-05-11T19-41-59_172-jvmRun1 surefire-20250511194159325_1tmp surefire_0-20250511194159325_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\EPN\2025-A\Agile\sample-calculator-git\target\test-classes;C:\EPN\2025-A\Agile\sample-calculator-git\target\classes;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\qkevi\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\qkevi\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\qkevi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\qkevi\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\qkevi\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\qkevi\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\qkevi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\qkevi\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\qkevi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\qkevi\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\qkevi\AppData\Local\Temp\surefire296982918903823708\surefirebooter-20250511193334485_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\qkevi\AppData\Local\Temp\surefire13523793176375688782\surefirebooter-20250511194159325_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -61,11 +61,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="given_negativeNumber_whenSquareRoot_thenThrowIllegalArgumentException" classname="ec.epn.edu.CalculatorTest" time="0.006"/>
+  <testcase name="given_negativeNumber_whenSquareRoot_thenThrowIllegalArgumentException" classname="ec.epn.edu.CalculatorTest" time="0.004"/>
   <testcase name="given_numberAndZero_whenDivide_thenThrowArithmeticException" classname="ec.epn.edu.CalculatorTest" time="0.005"/>
-  <testcase name="given_twoIntegers_whenMultiply_thenReturnCorrectProduct" classname="ec.epn.edu.CalculatorTest" time="0.002"/>
-  <testcase name="given_twoIntegers_whenSubtract_thenReturnCorrectDifference" classname="ec.epn.edu.CalculatorTest" time="0.001"/>
-  <testcase name="given_twoIntegers_whenAdd_thenReturnCorrectSum" classname="ec.epn.edu.CalculatorTest" time="0.002"/>
+  <testcase name="given_twoIntegers_whenMultiply_thenReturnCorrectProduct" classname="ec.epn.edu.CalculatorTest" time="0.001"/>
+  <testcase name="given_twoIntegers_whenSubtract_thenReturnCorrectDifference" classname="ec.epn.edu.CalculatorTest" time="0.0"/>
+  <testcase name="given_oneNumber_whenSum_thenReturnCorrectSum" classname="ec.epn.edu.CalculatorTest" time="0.001"/>
+  <testcase name="given_twoIntegers_whenAdd_thenReturnCorrectSum" classname="ec.epn.edu.CalculatorTest" time="0.001"/>
   <testcase name="given_positiveNumber_whenNaturalLog_thenReturnCorrectValue" classname="ec.epn.edu.CalculatorTest" time="0.001"/>
-  <testcase name="given_positiveInteger_whenFactorial_thenReturnCorrectValue" classname="ec.epn.edu.CalculatorTest" time="0.0"/>
+  <testcase name="given_positiveInteger_whenFactorial_thenReturnCorrectValue" classname="ec.epn.edu.CalculatorTest" time="0.001"/>
 </testsuite>
